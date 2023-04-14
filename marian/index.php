@@ -10,16 +10,11 @@ require_once 'include/header.php';
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Last name</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="text" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Date of birth</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">specialty</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
+<br>
   <label for="date">Select a date:</label>
 		<input type="date" id="date" name="date">
 		
@@ -30,6 +25,8 @@ require_once 'include/header.php';
 			$date = $_POST['date'];
 		}
 	?>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Specialty</label>
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
   <label class="form-check-label" for="flexCheckDefault">
@@ -48,6 +45,7 @@ require_once 'include/header.php';
  Web developer
   </label>
 </div>
+<br>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Enter Contact Number</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
